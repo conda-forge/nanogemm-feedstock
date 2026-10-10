@@ -1,5 +1,5 @@
 context:
-  version: "0.3.10"
+  version: "0.3.13"
 
 package:
   name: nanogemm
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/nanogemm/nanogemm-${{ version }}.tar.gz
-  sha256: 00cbf19f251d7e6a1ac7e42ee9da4b1f6ce7db9d6ce12b7a7cae8b3983f18944
+  sha256: 9fc4b1c0a75e33ef87dc88de0111e6d517adf88c47bc75ac6fd12f6ce47bb72a
   patches:
     - patches/0001-loosen-numpy-pin.patch
 
